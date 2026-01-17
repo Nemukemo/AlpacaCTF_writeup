@@ -1,0 +1,4 @@
+https://gemini.google.com/share/c79910a7e657
+解法共有リンク
+
+(echo -e "-12\n20969"; cat) | >nc 34.170.146.252 27095

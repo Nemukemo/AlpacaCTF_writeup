@@ -1,0 +1,1 @@
+require 'prime';print "flag> ";puts(Prime::Generator23.new.take(23).zip(STDIN.read(23).bytes).map{|x,y|x^y}.pack("C*")=="Coufhlj@bixm|UF\\JCjP^P<"?"Correct!":"Incorrect!")
