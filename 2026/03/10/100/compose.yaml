@@ -1,0 +1,9 @@
+services:
+  challenge:
+    build:
+      dockerfile: ./100.Dockerfile
+    restart: unless-stopped
+    ports:
+      - ${PORT:-1337}:1337
+    environment:
+      - FLAG=Alpaca{REDACTED}
