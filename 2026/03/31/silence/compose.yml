@@ -1,0 +1,6 @@
+services:
+  ctf:
+    restart: unless-stopped
+    build: .
+    ports:
+      - ${PORT:-1337}:1337
